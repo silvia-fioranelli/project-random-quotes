@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoteBox rendering should render error 1`] = `
+<div
+  class="card text-center"
+  style={
+    Object {
+      "width": "30rem",
+    }
+  }
+>
+  <div
+    class="card-body"
+  >
+    <blockquote
+      class="blockquote"
+    >
+      <p
+        class="mb-0"
+      >
+        Ops! Something went wrong...
+      </p>
+    </blockquote>
+    <hr />
+    <button
+      className="btn btn-light"
+      onClick={[MockFunction]}
+    >
+      <i
+        className="fa fa-refresh"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`QuoteBox rendering should render loading 1`] = `
+<div
+  class="card text-center"
+  style={
+    Object {
+      "width": "30rem",
+    }
+  }
+>
+  <div
+    class="card-body"
+  >
+    <div
+      class="spinner-border text-dark"
+      role="status"
+    >
+      <span
+        class="sr-only"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`QuoteBox rendering should render quote 1`] = `
+<div
+  class="card text-center"
+  style={
+    Object {
+      "width": "30rem",
+    }
+  }
+>
+  <div
+    class="card-body"
+  >
+    <blockquote
+      class="blockquote"
+    >
+      <p
+        class="mb-0"
+      >
+        mock content
+      </p>
+      <br />
+      <footer
+        class="blockquote-footer font-italic"
+      >
+        mock author
+      </footer>
+    </blockquote>
+    <hr />
+    <button
+      className="btn btn-light"
+      onClick={[MockFunction]}
+    >
+      <i
+        className="fa fa-refresh"
+      />
+    </button>
+  </div>
+</div>
+`;
