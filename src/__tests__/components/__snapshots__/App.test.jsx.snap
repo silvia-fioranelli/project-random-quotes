@@ -9,6 +9,10 @@ exports[`App rendering component App should render 1`] = `
     }
   }
 >
-  <QuoteBox />
+  <QuoteBox
+    getQuote={[Function]}
+    isError={false}
+    quote={null}
+  />
 </div>
 `;
