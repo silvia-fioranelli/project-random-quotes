@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App rendering component App should render 1`] = `
+<div
+  className="d-flex align-items-center justify-content-center"
+  style={
+    Object {
+      "height": "100vh",
+    }
+  }
+>
+  <QuoteBox />
+</div>
+`;

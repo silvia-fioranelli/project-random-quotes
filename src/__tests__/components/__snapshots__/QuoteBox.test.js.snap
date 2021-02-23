@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoteBox rendering component QuoteBox should render 1`] = `
+<div
+  class="card text-center"
+  style={
+    Object {
+      "width": "30rem",
+    }
+  }
+>
+  <div
+    class="card-body"
+  >
+    <blockquote
+      class="blockquote"
+    >
+      <p
+        class="mb-0"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+      </p>
+      <br />
+      <footer
+        class="blockquote-footer"
+      >
+        Author
+      </footer>
+    </blockquote>
+    <hr />
+    <button
+      className="btn btn-light"
+    >
+      <i
+        className="fa fa-refresh"
+      />
+    </button>
+  </div>
+</div>
+`;
